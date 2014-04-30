@@ -1,0 +1,29 @@
+{
+  "name": "node-citygrid",
+  "version": "0.0.1",
+  "description": "A Node.js wrapper for the CityGrid API",
+  "main": "./lib/citygrid.js",
+  "author": {
+    "name": "Jon Wicks",
+    "email": "jmwicks@gmail.com",
+    "url": "https://github.com/jwicks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jwicks/node-citygrid.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jwicks/node-citygrid/issues"
+  },
+  "homepage": "http://github.com/jwicks/node-citygrid",
+  "keywords": [
+    "citygrid",
+    "places",
+    "api",
+    "wrapper"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.34.0"
+  }
+}
