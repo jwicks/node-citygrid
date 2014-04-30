@@ -10,7 +10,7 @@ A Node.js wrapper for the CityGrid API: http://docs.citygridmedia.com/display/ci
 
   Install with the node package manager [npm](http://npmjs.org):
 
-    $ npm install jira
+    $ npm install citygrid
 
 ## Examples ##
 
@@ -23,9 +23,10 @@ Places Search
       console.log('data:', data);
     });
 
-Currently there is no explicit login call necessary as each API call uses Basic Authentication to authenticate. 
 
 ## TODO ##
 
 *  More examples
 *  Tests
+*  Pagination
+*  Remove dependency on request?
